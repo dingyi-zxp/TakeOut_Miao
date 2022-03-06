@@ -1,0 +1,164 @@
+$backColor : red;
+.shoppingCart{
+	position: fixed;
+	z-index: 333; 
+	top: 87%;
+	right:5rpx;
+	height: $cartHeight;
+	width: 96%;
+	margin: 0 2%;
+	border-radius: $cartHeight / 2;
+	background-color: #000000;
+	overflow: hidden;
+	.cart-icon-size{
+		top: 30rpx;
+		position: relative;
+		height: 170rpx;
+		width: 200rpx;
+		left: 55rpx;
+		.shoppingCart-Icon {
+			
+			left: 5%; 
+			width: 100%;
+			
+			.cart_icon__loaction{
+				right: 350upx;
+			}
+			.not_Select-icon{
+				-webkit-filter: grayscale(100%);
+				-moz-filter: grayscale(100%);
+				-ms-filter: grayscale(100%);
+				-o-filter: grayscale(100%);
+				
+				filter: grayscale(100%);
+					
+				filter: gray;
+			}
+		}
+	}
+	.distribution{
+		z-index: 999;
+		position: relative;
+		width: 100%;
+		left: 220rpx;
+		bottom: 140rpx;
+		color: $fontColorGary;
+		.buyTotleMoney{
+			display: flex;
+			.buyTotleMoney_real{
+				color: #FFFFFF;	
+				font-size: 50rpx;
+				
+			}
+			.buyTotleMoney_orgin{
+				position: relative;
+				top: 20rpx;
+				width: 48rpx;
+				height: 32rpx;
+				left: 10rpx;
+				color: $fontColorGaryNotSelect;
+				font-size: 28rpx;
+				text-decoration: line-through;
+			}
+			
+		}
+		
+		// 配送费用
+		.not_Select{
+			font-size: 29rpx;
+			font-weight: 488;
+			.remind{
+				
+			}
+			.distribution_price-original{
+				margin-left: 5rpx;
+				text-decoration: line-through;
+			}
+		}
+		.not_Select_loc{
+			position: relative;
+			top: 26rpx;
+			right: 10rpx;
+		}
+		.CanPay{
+			background-color: red;
+		}
+		// 支付金额
+		.distribution-price__pay{
+			position: absolute;
+			width: 198rpx;
+			height: 156rpx;
+			top:-32rpx;
+			left: 302rpx;
+			
+			// 没有达到配送费用
+			.distribution-price__pay--unpaid{
+				text-align: center;
+				margin-top: 40rpx;
+				.distribution-price__pay--unpaid__distent{
+					font-size: 30rpx;
+					font-weight: 500;
+					color: #6f6f6f;
+				}
+				.distribution-price__pay--unpaid__helpPay{
+					color: #3E3E3E;
+					font-size: 25rpx;
+					text-align: center;
+				}
+			}
+			
+			// 达到配送费用
+			.distribution-price__pay--canPay{
+				background-color: #FFC645;
+				// background-color: red;
+				// $backColor :pink;
+				text-align: center;
+				height: 100%;
+				width: 100%;
+				.CanPay_Hint{
+					position: relative;
+					top: 35rpx;
+					font-size: 36rpx;
+					font-weight: 500;
+					color: #2E2F32;
+				}
+				.distribution-price__pay--unpaid__helpPay{
+					position: relative;
+					top: 30rpx;
+					color: #3E3E3E;
+					font-size: 25rpx;
+					text-align: center;
+				}
+				
+			}
+		}
+	}
+}
+.shop_goods__symbol{
+	position: relative;
+	display:flex;
+	width: 140rpx;
+	height: 50rpx;
+	right: 30rpx;
+	top: 140rpx;
+	.shop_goods__symbol--add{
+		position: absolute;
+		left: 80rpx;
+		
+		image{
+			width: 50rpx;
+		}
+	}
+	.shop_goods--now{
+		display: flex;
+		.shop_goods__symbol--cancel{
+			image{
+				width: 50rpx;
+			}
+		}
+	}
+	
+}
+.cartIcon_size{
+	width: 133upx;
+}

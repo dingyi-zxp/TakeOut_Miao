@@ -1,0 +1,1 @@
+<view class="delivery data-v-4fb8b700"><view class="dightFormat data-v-4fb8b700">{{deliveryGrade}}</view><view class="textFormat data-v-4fb8b700">配送评分</view></view>

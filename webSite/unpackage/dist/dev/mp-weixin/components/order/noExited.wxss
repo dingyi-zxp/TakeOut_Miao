@@ -1,0 +1,29 @@
+
+.no-exite{
+	top: 0;
+	left: 0;
+}
+.info-one{
+	color: #6C6C6C;
+}
+.info-two{
+	color: #999999;
+}
+.no-exite image{
+	width: 666rpx;
+	margin: 0 auto;
+	margin-top: 30%;
+	display: block;
+}
+.no-exite text{
+	text-align: center;
+	margin:  5.88rpx 0;
+	display: block;
+}
+.no-exite button{
+	top: 5rpx;
+	background-color: #FDD060;
+	border: ;
+	width: 300rpx;
+}
+

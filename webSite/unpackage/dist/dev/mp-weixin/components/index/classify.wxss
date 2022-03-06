@@ -1,0 +1,29 @@
+
+swiper.data-v-2bcc549c{
+	height: 320rpx !important;
+}
+.swiper-item.data-v-2bcc549c{
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: space-between;
+	height: 320rpx;
+}
+.conteng-img.data-v-2bcc549c{
+	width: calc((100% / 5) - 12px) !important;
+	margin: 6px;
+	position: relative;
+	text-align: center;
+}
+.conteng-img text.data-v-2bcc549c{
+	padding-top: 20rpx;
+	font-size: 25rpx;
+}
+.uploadimg.data-v-2bcc549c{
+	width: 70rpx;
+	height: 70rpx;
+	border-radius: 50rpx;
+	display: block;
+	margin: 0 auto;
+}
+

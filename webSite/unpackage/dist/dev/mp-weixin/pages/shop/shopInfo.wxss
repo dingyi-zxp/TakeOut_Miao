@@ -1,0 +1,6 @@
+
+.container-select{
+	position: relative;
+	bottom: 200rpx;
+}
+

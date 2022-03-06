@@ -1,0 +1,8 @@
+{
+  "navigationStyle": "custom",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "introduce": "/components/shop/shop_info",
+    "select": "/components/shop/select_context"
+  }
+}

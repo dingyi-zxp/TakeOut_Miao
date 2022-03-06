@@ -1,0 +1,11 @@
+{
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "tabbar": "/components/index/status_bar",
+    "search": "/components/index/search",
+    "classify": "/components/index/classify",
+    "delicacy": "/components/index/delicacy",
+    "title": "/components/index/title",
+    "takeout": "/components/index/takeout"
+  }
+}

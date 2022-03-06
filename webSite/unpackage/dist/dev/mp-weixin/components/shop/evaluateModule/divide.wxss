@@ -1,0 +1,9 @@
+
+.line.data-v-13f7a785{
+	position: relative;
+	margin-top: 35rpx;
+	margin-left: 10rpx;
+	height: 80rpx;
+	border-left: solid #727272 1 rpx;
+}
+

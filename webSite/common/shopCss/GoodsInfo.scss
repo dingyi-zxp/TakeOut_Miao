@@ -1,0 +1,47 @@
+.shop_goods{
+		display: flex;
+		.shop_goods-img{
+			image{
+				width: 188upx;
+				height: 188upx;
+			}
+			margin-right: 20rpx;
+		}
+		.shop_goods-info{
+			.shop_goods-info__name{
+					
+				font-weight: 500;
+				font-size: 18px;
+			}
+			.shop_goods-info__peculiarity{
+				display: flex;
+				overflow: hidden;
+				.tagMargin{
+					margin-right: 15rpx;
+					flex-shrink:0;
+				}
+			}
+			.shop_goods-info__evaluate{
+				color: #909193;
+				font-size: 25rpx;
+				width: 280rpx;
+				flex-shrink: 0;
+				.monthlySales{
+					margin-right: 15rpx;
+				}
+				.goodEvaluate{
+				}
+			}
+			.shop_goods-info__price{
+				display: flex;
+				.actualPrice{
+					color: #FF4A26;
+					font-weight: 500;
+				}
+				.originalPrice{
+					margin-left: 10rpx;
+					text-decoration: line-through;
+				}
+			}
+		}
+	}

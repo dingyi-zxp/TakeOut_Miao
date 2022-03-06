@@ -1,0 +1,6 @@
+
+.content_show--scope{
+	z-index: 444;
+	width: 604rpx;
+}
+

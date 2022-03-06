@@ -1,0 +1,7 @@
+{
+  "component": true,
+  "usingComponents": {
+    "user-info": "/components/shop/evaluateModule/user_content_format/userInfo",
+    "user-content": "/components/shop/evaluateModule/user_content_format/userContent"
+  }
+}

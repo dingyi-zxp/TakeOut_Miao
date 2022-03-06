@@ -1,0 +1,111 @@
+
+.delicacy-list image.data-v-a95529ac{
+	width: 30rpx;
+	height: 30rpx;
+	display: block;
+}
+.delicacy-view.data-v-a95529ac{
+	font-size: 30rpx;
+	display: flex;
+	align-items: center;
+	color: #666666;
+	height: 70rpx;
+	padding: 0 15rpx;
+	background: #FFFFFF;
+}
+.delicacy-list.data-v-a95529ac{
+	display: flex;
+	align-items: center;
+}
+.delicacy-right.data-v-a95529ac{
+	justify-content: flex-end;
+	align-items: center;
+}
+.delicacy-grow.data-v-a95529ac{
+	flex-grow: 1;
+}
+.prefer-posi.data-v-a95529ac{
+	position: absolute;
+	left: 0;
+	right: 0;
+	width: 100%;
+	z-index: 999;
+}
+/*排序*/
+.sortlist.data-v-a95529ac{
+	border: #FFFFFF;
+	background: #F7F7F7;
+}
+.sortliteltle text.data-v-a95529ac{
+	padding: 0 15rpx;
+	display: block;
+	font-size: 30rpx;
+	height: 70rpx;
+	line-height: 70rpx;
+	border: 1rpx solid #ededed;
+}
+/* 选中 */
+.activeb.data-v-a95529ac{
+	color: #f89903 !important;
+}
+/* 相对定位 */
+.sortlist-view.data-v-a95529ac{
+	height: 700rpx;
+	overflow: hidden;
+	overflow-y: scroll;
+	position: relative;
+}
+.sortlist-title.data-v-a95529ac{
+	padding: 0 15rpx;
+	font-size: 30rpx;
+	height: 60rpx;
+	line-height: 60rpx;
+}
+.Choice.data-v-a95529ac{
+	font-size: 28rpx;
+	background: #F8F8F8;
+	height: 55rpx;
+	line-height: 55rpx;
+	color: #666666;
+	width: calc((100% / 3) - 15px) !important;
+	margin: 7.5px;
+	text-align: center;
+	display: block;
+	border-radius: 5rpx;
+}
+.sortlist-flex.data-v-a95529ac{
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	margin-bottom: 30rpx;
+}
+.sortlist-bottom.data-v-a95529ac{
+	background-color: #FFFFFF;
+	height: 80rpx;
+	border-top: 1rpx solid #e4e4e4;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+.sortlist-bottom text.data-v-a95529ac{
+	flex-grow: 1;
+	height: 80rpx;
+	line-height: 80rpx;
+	text-align: center;
+}
+.sortlist-bottom text.data-v-a95529ac:nth-child(1){
+	border-right: 1rpx solid #e4e4e4;
+}
+.sortlist-bottom text.data-v-a95529ac:nth-child(2){
+	background: #ffd348;
+}
+/* 多选 */
+.scractive.data-v-a95529ac{
+	background: #fef6df !important;
+	color: #f29909 !important;
+}
+

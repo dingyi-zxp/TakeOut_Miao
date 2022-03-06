@@ -1,0 +1,1 @@
+<view class="no-exite"><image src="../../static/order_img/void_info.png" mode="widthFix"></image><text class="info-one">一个订单都没有</text><text class="info-two">给自己定一个小目标，先下一单</text><button>去逛逛</button></view>

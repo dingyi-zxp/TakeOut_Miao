@@ -1,0 +1,6 @@
+{
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "bar": "/components/userPage/status_bar"
+  }
+}

@@ -1,0 +1,246 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.shop_goods {
+  display: flex;
+}
+.shop_goods .shop_goods-img {
+  margin-right: 20rpx;
+}
+.shop_goods .shop_goods-img image {
+  width: 188rpx;
+  height: 188rpx;
+}
+.shop_goods .shop_goods-info .shop_goods-info__name {
+  font-weight: 500;
+  font-size: 18px;
+}
+.shop_goods .shop_goods-info .shop_goods-info__peculiarity {
+  display: flex;
+  overflow: hidden;
+}
+.shop_goods .shop_goods-info .shop_goods-info__peculiarity .tagMargin {
+  margin-right: 15rpx;
+  flex-shrink: 0;
+}
+.shop_goods .shop_goods-info .shop_goods-info__evaluate {
+  color: #909193;
+  font-size: 25rpx;
+  width: 280rpx;
+  flex-shrink: 0;
+}
+.shop_goods .shop_goods-info .shop_goods-info__evaluate .monthlySales {
+  margin-right: 15rpx;
+}
+.shop_goods .shop_goods-info .shop_goods-info__price {
+  display: flex;
+}
+.shop_goods .shop_goods-info .shop_goods-info__price .actualPrice {
+  color: #FF4A26;
+  font-weight: 500;
+}
+.shop_goods .shop_goods-info .shop_goods-info__price .originalPrice {
+  margin-left: 10rpx;
+  text-decoration: line-through;
+}
+.shoppingCart {
+  position: fixed;
+  z-index: 333;
+  top: 87%;
+  right: 5rpx;
+  height: 150rpx;
+  width: 96%;
+  margin: 0 2%;
+  border-radius: 75rpx;
+  background-color: #000000;
+  overflow: hidden;
+}
+.shoppingCart .cart-icon-size {
+  top: 30rpx;
+  position: relative;
+  height: 170rpx;
+  width: 200rpx;
+  left: 55rpx;
+}
+.shoppingCart .cart-icon-size .shoppingCart-Icon {
+  left: 5%;
+  width: 100%;
+}
+.shoppingCart .cart-icon-size .shoppingCart-Icon .cart_icon__loaction {
+  right: 350rpx;
+}
+.shoppingCart .cart-icon-size .shoppingCart-Icon .not_Select-icon {
+  -webkit-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+  -ms-filter: grayscale(100%);
+  -o-filter: grayscale(100%);
+  filter: grayscale(100%);
+  -webkit-filter: gray;
+          filter: gray;
+}
+.shoppingCart .distribution {
+  z-index: 999;
+  position: relative;
+  width: 100%;
+  left: 220rpx;
+  bottom: 140rpx;
+  color: #999999;
+}
+.shoppingCart .distribution .buyTotleMoney {
+  display: flex;
+}
+.shoppingCart .distribution .buyTotleMoney .buyTotleMoney_real {
+  color: #FFFFFF;
+  font-size: 50rpx;
+}
+.shoppingCart .distribution .buyTotleMoney .buyTotleMoney_orgin {
+  position: relative;
+  top: 20rpx;
+  width: 48rpx;
+  height: 32rpx;
+  left: 10rpx;
+  color: #B5B5B5;
+  font-size: 28rpx;
+  text-decoration: line-through;
+}
+.shoppingCart .distribution .not_Select {
+  font-size: 29rpx;
+  font-weight: 488;
+}
+.shoppingCart .distribution .not_Select .distribution_price-original {
+  margin-left: 5rpx;
+  text-decoration: line-through;
+}
+.shoppingCart .distribution .not_Select_loc {
+  position: relative;
+  top: 26rpx;
+  right: 10rpx;
+}
+.shoppingCart .distribution .CanPay {
+  background-color: red;
+}
+.shoppingCart .distribution .distribution-price__pay {
+  position: absolute;
+  width: 198rpx;
+  height: 156rpx;
+  top: -32rpx;
+  left: 302rpx;
+}
+.shoppingCart .distribution .distribution-price__pay .distribution-price__pay--unpaid {
+  text-align: center;
+  margin-top: 40rpx;
+}
+.shoppingCart .distribution .distribution-price__pay .distribution-price__pay--unpaid .distribution-price__pay--unpaid__distent {
+  font-size: 30rpx;
+  font-weight: 500;
+  color: #6f6f6f;
+}
+.shoppingCart .distribution .distribution-price__pay .distribution-price__pay--unpaid .distribution-price__pay--unpaid__helpPay {
+  color: #3E3E3E;
+  font-size: 25rpx;
+  text-align: center;
+}
+.shoppingCart .distribution .distribution-price__pay .distribution-price__pay--canPay {
+  background-color: #FFC645;
+  text-align: center;
+  height: 100%;
+  width: 100%;
+}
+.shoppingCart .distribution .distribution-price__pay .distribution-price__pay--canPay .CanPay_Hint {
+  position: relative;
+  top: 35rpx;
+  font-size: 36rpx;
+  font-weight: 500;
+  color: #2E2F32;
+}
+.shoppingCart .distribution .distribution-price__pay .distribution-price__pay--canPay .distribution-price__pay--unpaid__helpPay {
+  position: relative;
+  top: 30rpx;
+  color: #3E3E3E;
+  font-size: 25rpx;
+  text-align: center;
+}
+.shop_goods__symbol {
+  position: relative;
+  display: flex;
+  width: 140rpx;
+  height: 50rpx;
+  right: 30rpx;
+  top: 140rpx;
+}
+.shop_goods__symbol .shop_goods__symbol--add {
+  position: absolute;
+  left: 80rpx;
+}
+.shop_goods__symbol .shop_goods__symbol--add image {
+  width: 50rpx;
+}
+.shop_goods__symbol .shop_goods--now {
+  display: flex;
+}
+.shop_goods__symbol .shop_goods--now .shop_goods__symbol--cancel image {
+  width: 50rpx;
+}
+.cartIcon_size {
+  width: 133rpx;
+}
+.content_info-indexes__all--style {
+  overflow: hidden;
+  height: 900rpx;
+}
+.content_info-indexes__all--style .content_info-indexes__style--location {
+  background-color: #FAFAFA;
+  width: 100%;
+  height: 100rpx;
+  text-align: center;
+  line-height: 100rpx;
+}
+.content_info-indexes__all--style .content_info-indexes__style {
+  color: #000000;
+  font-weight: #000000;
+}
+.content_info-indexes__all--style .content_info-indexes__style--notSelect {
+  color: #B5B5B5;
+  font-weight: 300;
+}
+.scroller {
+  width: 590rpx;
+  height: 800rpx;
+}
+.container {
+  position: relative;
+  margin-top: 25rpx;
+  z-index: 999;
+}
+.content_info-indexes_name {
+  font-weight: 300;
+  font-size: 40rpx;
+}
+.content_info {
+  width: 600rpx;
+  overflow: hidden;
+}
+

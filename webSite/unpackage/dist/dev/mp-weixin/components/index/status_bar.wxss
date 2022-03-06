@@ -1,0 +1,28 @@
+
+.status_bar.data-v-02f99b5e{
+	background-color: #FFDC4D;
+	width: 100%;
+	height: 235.29rpx;
+	z-index: 1;
+	position: relative;
+	margin:  0;
+}
+.status_bar--map.data-v-02f99b5e{
+	position: relative;
+	display: flex;
+	align-items: center;
+	top: 37%;
+	z-index: 10;
+}
+.status_bar--map_text.data-v-02f99b5e{
+	font-size: 37.64rpx;
+}
+.status_bar--map_img.data-v-02f99b5e{
+	margin: 5.88rpx;
+}
+.status_bar--map_img_.data-v-02f99b5e{
+}
+.status_bar--map_img_location.data-v-02f99b5e{
+	margin-left: 3%;
+}
+
